@@ -47,7 +47,6 @@ def get_match(string, pattern):
     return []
 
 
-num = 10000000
-string = 'go' * num + 'bu'*num
-pattern = 'x' * num + 'y'* num
+string = "gogopowerrangergogopowerranger"
+pattern = "xxyxxy"
 print(get_match(string, pattern))
